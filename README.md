@@ -10,7 +10,6 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [🔑 Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -52,14 +51,6 @@ The purpose of the project is to create an intuitive and user-friendly calculato
 - ✨ **Simple Calculations**: Users can make basic calculations such as addition, subtraction, multiplication, and division. The application provides an intuitive user interface where users can input numbers and operators to perform the desired calculations.
 
 - 🏅 **Random Math Quotes**: The application offers a collection of inspirational and thought-provoking math-related quotes. Users can read a randomly generated quote by simply refreshing the page or clicking a dedicated button.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [🔗 Live Demo Link](https://Young-Gaius.github.io/react-magic/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
