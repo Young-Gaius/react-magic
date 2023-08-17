@@ -1,9 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Button() {
-  return (
-    <div className="num">0</div>
-  );
-}
+const Button = ({ children, type, className }) => (
+  <button type={type} className={className}>
+    {children}
+  </button>
+);
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  type: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};
 
 export default Button;
