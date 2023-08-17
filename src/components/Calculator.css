@@ -2,9 +2,6 @@
   width: 450px;
   margin: 0 auto;
   border-radius: 10px;
-  /* display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px; */
 }
 
 .row {
@@ -16,7 +13,7 @@ button {
   flex: 1;
   padding: 20px;
   font-size: 18px;
-  background-color: #D8D9DA;
+  background-color: #d8d9da;
   color: black;
   border: 1px solid rgba(231, 222, 222, 0.793);
   border-radius: 1px;
@@ -29,11 +26,7 @@ button:hover {
 }
 
 .operator {
-  background-color: #E26A2C;
-}
-
-.equals {
-  background-color: #2ecc71;
+  background-color: #e26a2c;
 }
 
 .button-0 {
@@ -41,7 +34,7 @@ button:hover {
 }
 
 .display {
-  background-color: #61677A;
+  background-color: #61677a;
   padding: 10px;
   font-size: 24px;
   text-align: right;
