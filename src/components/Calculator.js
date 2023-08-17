@@ -5,10 +5,10 @@ const Calculator = () => (
   <div className="calculator">
     <div className="display">0</div>
     <div className="row">
-      <button type="button" className="operator">AC</button>
-      <button type="button" className="operator">+/-</button>
-      <button type="button" className="operator">%</button>
-      <button type="button" className="operator">+</button>
+      <button type="button">AC</button>
+      <button type="button">+/-</button>
+      <button type="button">%</button>
+      <button type="button" className="operator">÷</button>
     </div>
     <div className="row">
       <button type="button">7</button>
@@ -29,9 +29,9 @@ const Calculator = () => (
       <button type="button" className="operator">+</button>
     </div>
     <div className="row">
-      <button type="button">0</button>
+      <button type="button" className="button-0">0</button>
       <button type="button">.</button>
-      <button type="button" className="equals">=</button>
+      <button type="button" className="operator">=</button>
     </div>
   </div>
 );
