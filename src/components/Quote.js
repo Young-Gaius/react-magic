@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Quotes.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
@@ -27,7 +28,7 @@ const Quote = () => {
     return <div>Loading...</div>;
   }
   return (
-    <div>
+    <div className="quotes">
       <h2>Quote of the Day</h2>
       <p>
         &ldquo;

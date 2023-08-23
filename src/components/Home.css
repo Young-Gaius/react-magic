@@ -1,0 +1,25 @@
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  
+  .home-description {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .home-subtitle {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
