@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<div
+  className="home-container"
+>
+  <h1
+    className="home-title"
+  >
+    Welcome to Math Magicians
+  </h1>
+  <p
+    className="home-description"
+  >
+    Math Magicians is a web application that provides a calculator for performing arithmetic calculations and a random quote generator to inspire and motivate you.
+  </p>
+  <p
+    className="home-subtitle"
+  >
+    Get started by exploring the calculator functionality or discovering insightful quotes.
+  </p>
+</div>
+`;
