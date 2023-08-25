@@ -9,7 +9,7 @@ describe('operation', () => {
     expect(operate(10, 3, '-')).toBe('7');
   });
   it('Subtract two numbers', () => {
-    expect(operate(10, 20, '-')).toBe('-10');
+    expect(operate(14, 20, '-')).toBe('-6');
   });
   it('Multiplay two numbers', () => {
     expect(operate(10, 15, 'x')).toBe('150');
@@ -21,12 +21,12 @@ describe('operation', () => {
     expect(operate(21, 3, '÷')).toBe('7');
   });
   it('Modulo of two numbers', () => {
-    expect(operate(36, 4, '%')).toBe('0');
+    expect(operate(24, 4, '%')).toBe('0');
   });
   it('Modulo by zero', () => {
-    expect(operate(25, 0, '%')).toBe("Can't find modulo as can't divide by 0.");
+    expect(operate(12, 0, '%')).toBe("Can't find modulo as can't divide by 0.");
   });
   it('For Unknown Operation', () => {
-    expect(() => operate(3, 4, '#')).toThrowError("Unknown operation '#'");
+    expect(() => operate(8, 2, '#')).toThrowError("Unknown operation '#'");
   });
 });
