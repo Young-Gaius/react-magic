@@ -2,17 +2,17 @@ import operate from '../../logic/operate';
 
 describe('operation', () => {
   it('Add two numbers', () => {
-    expect(operate(4, 6, '+')).toBe('10');
+    expect(operate(5, 5, '+')).toBe('10');
   });
 
   it('Subtract two numbers', () => {
-    expect(operate(9, 3, '-')).toBe('6');
+    expect(operate(10, 3, '-')).toBe('7');
   });
   it('Subtract two numbers', () => {
     expect(operate(10, 20, '-')).toBe('-10');
   });
   it('Multiplay two numbers', () => {
-    expect(operate(3, 15, 'x')).toBe('45');
+    expect(operate(10, 15, 'x')).toBe('150');
   });
   it('Divide by Zero', () => {
     expect(operate(7, 0, '÷')).toBe("Can't divide by 0.");
