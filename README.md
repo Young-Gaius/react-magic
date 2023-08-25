@@ -121,6 +121,10 @@ npm start
 
 - GitHub: [@Young-Gaius](https://github.com/Young-Gaius)
 
+👤 Ishimwe Joseph WazaCode
+
+- GitHub: [@ishimwepati](https://github.com/ishimwepati)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
